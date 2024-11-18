@@ -5,25 +5,47 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 1em 0;
+    box-sizing: border-box;
 }
+
 h2 {
     color: #004e97;
     margin: .5em 0;
 }
+
 img {
+    width: 100%; /* Ensures the image scales to the width of its container */
+    height: auto;
     margin-bottom: .5em;
+    display: block; /* Prevents the image from being inline with text */
 }
+
 p {
     line-height: 1.3;
     margin: 0;
 }
+
 ul {
     line-height: 1.3;
     padding-left: 1em;
     margin-top: .6em;
     margin-left: 2em;
 }
+
 li {
     margin-top: .3em;
     margin-left: .5em;
+}
+
+/* Add some media queries for additional responsiveness */
+@media (min-width: 600px) {
+    body {
+        padding: 2em 0;
+    }
+}
+
+@media (min-width: 800px) {
+    body {
+        max-width: 1000px; /* Optional: Increase width for larger screens */
+    }
 }
