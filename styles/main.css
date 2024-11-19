@@ -14,10 +14,10 @@ h2 {
 }
 
 img {
-    width: 100%; /* Ensures the image scales to the width of its container */
+    width: 100%; 
     height: auto;
     margin-bottom: .5em;
-    display: block; /* Prevents the image from being inline with text */
+    display: block;
 }
 
 p {
@@ -37,7 +37,6 @@ li {
     margin-left: .5em;
 }
 
-/* Add some media queries for additional responsiveness */
 @media (min-width: 600px) {
     body {
         padding: 2em 0;
@@ -46,6 +45,6 @@ li {
 
 @media (min-width: 800px) {
     body {
-        max-width: 1000px; /* Optional: Increase width for larger screens */
+        max-width: 1000px; 
     }
 }
